@@ -1,1 +1,384 @@
-<h1>Hola Radar</h1>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>hola_radar</title>
+  </head>
+  <body>
+    <font face="Verdana"><br>
+    </font>
+    <table width="1064" height="38" border="0" cellpadding="0"
+      cellspacing="0">
+      <tbody>
+        <tr>
+          <td valign="top"><img alt="Imagen Radar Stats"
+              src="000_radarstats.jpg" width="115" height="115"><br>
+          </td>
+          <td valign="top"><font face="Verdana"><font color="#6633ff"><b>Preguntas
+                  más frecuentes relativas a la APP de móvil Radar Covid
+                </b><b><br>
+                </b><b><br>
+                </b><b>Web no oficial</b><b><br>
+                </b><b><br>
+                </b><b>Ligada al proyecto Radar STATS (Twitter
+                  @RadarCOVIDSTATS)</b></font><br>
+              <br>
+            </font></td>
+        </tr>
+      </tbody>
+    </table>
+    <font face="Verdana"><br>
+      <br>
+      <br>
+      <b>A. INSTALACIÓN</b><b><br>
+      </b><br>
+      <a href="#rcv001">001. En qué móviles se puede instalar</a><br>
+      <a href="#rcv002">002. ¿Cónsume mucha batería RadarCOVID?</a><br>
+      <br>
+      <b>B. FUNCIONAMIENTO</b><b><br>
+      </b><br>
+      <a href="#rcv101">101. ¿Se puede instalar RadarCOVID después de
+        que me den el resultado positivo en un test?</a><br>
+      <a href="#rcv102">102. ¿A qué horas calcula mi móvil las
+        notificaciones si un usuario de un móvil próximo a comunicado un
+        test positivo?</a><br>
+      <a href="#rcv103">103. Si vivo en una Comunidad Autónoma que no
+        proporciona código para comunicar un positivo ¿puedo recibir
+        notificaciones de contacto alto?<br>
+      </a><br>
+      <br>
+      <a href="#rcv901">901. Comunidades Autónomas (CCAA) cuyo sistema
+        sanitario proporciona el código de 12 cifras para comunicar un
+        diagnóstico positivo <br>
+      </a><br>
+    </font><br>
+    <font face="Verdana"><font face="Verdana"><b><a name="rcv001"></a>001.
+          En qué móviles se puede instalar</b><b><br>
+        </b><br>
+        a) En los móviles con Android 6.0 o posterior<br>
+        b) En los móviles iPhone requiere un sistema 13.5 o posterior<br>
+        <br>
+        No se puede instalar en:<br>
+        <br>
+        - Móviles con versiones de Android anterior a la 6.0.<br>
+        - Móviles Huawei y Honor de última generación sin Google Play
+        Services.<br>
+        - Cualquier móvil de otros fabricantes que no tengan Google
+        Play.<br>
+        <br>
+        <font size="-1">Fuente:
+https://www.xataka.com/basics/que-moviles-puedes-no-puedes-instalar-app-radar-covid<br>
+          &nbsp;&nbsp;
+          https://apps.apple.com/es/app/radar-covid/id1520443509<br>
+          Estado: Aprobado<br>
+          Fecha actualización: 03/10/2020<br>
+        </font></font><br>
+      <br>
+      <b><a name="rcv002"></a>002. ¿Cónsume mucha batería RadarCOVID?</b><b><br>
+      </b><br>
+      No. En general, el protocolo Bluetooth es muy robusto y el
+      rendimiento no se degrada demasiado a menos que haya cientos de
+      dispositivos en una proximidad cercana.<br>
+      <br>
+      La evidencia del acierto de la elección de Bluetooth de baja
+      energía (BLE) para ser usado en aplicaciones de rastreo de
+      contactos es apabullante.<br>
+      <br>
+    </font><br>
+    <font face="Verdana"><font face="Verdana"><font face="Verdana"><font
+            size="-1">Fuente:
+            https://twitter.com/YoryoBass/status/1312445670922489857<br>
+            Estado: Aprobado<br>
+            Fecha actualización: 03/10/2020<br>
+          </font></font></font><br>
+      <br>
+      <a name="rcv101"></a><b>101. ¿Se puede instalar RadarCOVID después
+        de que me den el resultado positivo en un test?</b><b><br>
+      </b><br>
+      Recordemos que RadarCOVID tiene que estar instalada y activada
+      días antes del diagnóstico para que al compartirlo en la app, haya
+      TEKs (Clave de exposición temporal o identificador generado
+      diariamente en el dispositivo) de días previos que subir al
+      servidor. Si la instalación se hace a posteriori no sirve para
+      avisar a los contactos de riesgo.<br>
+      <br>
+      Este es un caso interesante: a las 18 h. UTC del 29/09/2020 se
+      añadieron 2 TEKs al servidor pero no aumentó el número de
+      diagnósticos compartidos. Esto se debe a que son TEKs generados
+      hoy, es decir, dos personas se instalaron la app poco antes o
+      después de recibir el diagnóstico positivo (verlo en
+      https://twitter.com/RadarCOVIDSTATS/status/1311008286989332481).<br>
+    </font><br>
+    <font face="Verdana"><font face="Verdana"><font face="Verdana"><font
+            face="Verdana"><font size="-1">Fuente:
+              https://twitter.com/pvieito/status/1311026303643062272<br>
+              Estado: Aprobado<br>
+              Fecha actualización: 03/10/2020<br>
+            </font></font></font></font><br>
+    </font><br>
+    <font face="Verdana"><font face="Verdana"><a name="rcv102"></a><b>102.
+          ¿A qué horas calcula mi móvil las notificaciones si un usuario
+          de un móvil próximo a comunicado un test positivo?</b><br>
+      </font><br>
+      La notificación a mi móvil en cuanto mi contacto ha comunicado su
+      positivo, sino cuando el servidor envía las actualizaciones a los
+      móviles, y eso sucede dos veces al día:<br>
+      <br>
+      Reloj despertador Entre las 6h y las 18h<br>
+      Reloj despertador Entre las 18h y las 6h<br>
+      <br>
+    </font><br>
+    <font face="Verdana"><font face="Verdana"><font face="Verdana"><font
+            face="Verdana"><font face="Verdana"><font size="-1">Fuente:
+https://twitter.com/AppRadarCovid/status/1310517441752182784<br>
+                Estado: Aprobado<br>
+                Fecha actualización: 03/10/2020<br>
+              </font></font></font></font></font><br>
+    </font><br>
+    <font face="Verdana"><font face="Verdana"><a name="rcv103"></a><b>103.
+          Si vivo en una Comunidad Autónoma (CCAA) que no proporciona
+          código para comunicar un positivo ¿puedo recibir
+          notificaciones de contacto alto?</b><br>
+        <br>
+        Si.<br>
+        <br>
+        Si usted ha estado en contacto con una persona que vive en otra
+        CCAA que proporciona códigos a los positivos y esa persona lo ha
+        comunicado.<br>
+        <br>
+      </font><br>
+      <a name="rcv901"></a><b>901. Comunidades Autónomas (CCAA) cuyo
+        sistema sanitario proporciona el código de 12 cifras para
+        comunicar un diagnóstico positivo.</b><br>
+      <br>
+      La siguiente tabla contiene las comunidades que entregan el código
+      necesario (al menos en el 50% de los casos) para comunicar que he
+      sido positivo en RadarCOVID<br>
+      <br>
+    </font>
+    <table width="100%" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana"><b>CCAA</b><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><b>Fuente</b><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><b>Fecha
+                actualización</b><br>
+            </font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Andalucía<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">Si<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020<br>
+            </font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Aragón<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">No<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Asturias<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Baleares<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">Si<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Canarias<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">Si<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Cantabria<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">Si<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Castilla la
+              Mancha<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Castilla y
+              León<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Cataluña<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">No<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">https://twitter.com/AppRadarCovid/status/1311968416056700929<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Ceuta<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">C. Valenciana<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Extremadura<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Galicia<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Madrid<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Melilla<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Murcia<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">Si<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">https://www.xatakamovil.com/aplicaciones/dia-d-para-radar-covid-espana-que-comunidades-autonomas-funciona-app-rastreo-contactos-covid-19<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Navarra<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">Pais Vasco<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">Si<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+        <tr>
+          <td valign="top"><font size="-1" face="Verdana">La Rioja<br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana"><br>
+            </font></td>
+          <td valign="top"><font size="-1" face="Verdana">03/10/2020</font></td>
+        </tr>
+      </tbody>
+    </table>
+    <font face="Verdana"><br>
+      <br>
+    </font><font face="Verdana"><br>
+      <br>
+      SITIO OFICIAL DE SOPORTE A RADAR COVID<br>
+      <br>
+      https://radarcovid.gob.es/preguntas-frecuentes<br>
+      <br>
+    </font><font face="Verdana"><font face="Verdana">OBJETO DE ESTA
+        PÁGINA<br>
+        <br>
+        Dar respuesta a las consultas que se formulan sobre la APP
+        RadarCOVID tanto sobre su funcionamiento cómo su arquitectura
+        más técnica. Va dirigida a las personas que no encuentan
+        información oficial suficiente.<br>
+        <br>
+      </font>EQUIPO QUE MANTIENE ESTA PÁGINA<br>
+      <br>
+      Equipo de @RadarCOVIDSTATS (en Twitter)<br>
+      - Jorge J. Ramos (@YoryoBass)<br>
+      - Pedro José Perera Vieito (@pvieito)<br>
+      - Juan Arana (@jaranper)<br>
+      <br>
+      <br>
+      REGLAS DE ESTILO<br>
+      <br>
+      - Está página no está sometida a intereses y conveniencias de
+      partidos políticos ni de instituciones de gobierno u otras<br>
+      - Está página no cuenta con financiación ni otras limitaciones
+      procedentes de empresas u otros intereses económicos<br>
+      - La página quiere estar redactada en un lenguaje claro y
+      pedagógico, sin términos en inglés ni abreviaturas no explicadas<br>
+    </font><br>
+    <br>
+    <br>
+  </body>
+</html>
