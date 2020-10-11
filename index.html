@@ -100,12 +100,10 @@ href="https://play.google.com/store/apps/details?id=es.gob.radarcovid&amp;amp;gl
       <br>
       <b>E. ASUNTOS TÉCNICOS SOBRE Radar COVID<br>
         <br>
-      </b>
-      <a href="#rcv401">401. ¿Cómo se pueden ver las Notificaciones de
-        Exposición (Android)?<br>
-      </a>
-      <a href="#rcv402">402. ¿Cómo se pueden ver las Notificaciones de
-        Exposición (iPhone)?</a><br>
+      </b> <a href="#rcv401">401. ¿Cómo se pueden ver las
+        Notificaciones de Exposición (Android)?<br>
+      </a> <a href="#rcv402">402. ¿Cómo se pueden ver las
+        Notificaciones de Exposición (iPhone)?</a><br>
       <a href="#rcv403">403. Funcionamiento técnico de Radar COVID</a><br>
       <br>
       <b>F. INTERNACIONALES<br>
@@ -197,7 +195,10 @@ href="https://www.xataka.com/aplicaciones/que-radar-covid-no-funciona-gps-activo
             de Xataka</a> se indica que Android necesita tener los
           servicios de localización activos para que funcione la
           conexión de móviles por Bluetooth pero que Radar Covid no
-          registra esta ubicación.<br>
+          registra esta ubicación. En este <a
+            href="https://support.google.com/googleplay/answer/9888358?hl=es">enlace</a>,
+          visible también desde Android, se indica que con Android 11
+          "no es necesario activar los ajustes de ubicación".<br>
           <font face="Verdana"><font size="-1"><br>
               <br>
               Fuente:
@@ -278,7 +279,14 @@ https://twitter.com/AppRadarCovid/status/1310517441752182784<br>
               <font face="Verdana"><a name="rcv199"></a><b>199. Nuevas
                   versiones de RadarCOVID</b><br>
                 <br>
+                <br>
+                En las direcciones de descarga de Google y Apple, en la
+                parte inferior, aparece el número de versión que estamos
+                descargando.<br>
+                <br>
                 09/10/2020<br>
+                <br>
+                Android=1.0.7, iPhone=1.0.8<br>
                 <br>
                 - Habilita la introducción de fecha de inicio de
                 síntomas o de diagnóstico tras hacerte el PCR<br>
@@ -339,8 +347,7 @@ https://www.businessinsider.es/configurar-radarcovid-app-rastreo-contactos-no-ta
                   &gt; Aplicaciones &gt; Radar COVID &gt; Almacenamiento
                   &gt; Borrar Caché)<br>
                   <br>
-                  <font size="-1">
-                    Fuente:
+                  <font size="-1"> Fuente:
 https://www.businessinsider.es/configurar-radarcovid-app-rastreo-contactos-no-tan-facil-504213<br>
                     &nbsp;&nbsp;
                     https://twitter.com/AppRadarCovid/status/1311959104731189250<br>
@@ -348,9 +355,9 @@ https://www.businessinsider.es/configurar-radarcovid-app-rastreo-contactos-no-ta
                     Fecha actualización: 06/10/2020<br>
                     <br>
                     <br>
-                  </font>
-                  <font face="Verdana"><a name="rcv301"></a><b>301. Qué
-                      hace Radar STATS. Código abierto<br>
+                  </font> <font face="Verdana"><a name="rcv301"></a><b>301.
+
+                      Qué hace Radar STATS. Código abierto<br>
                     </b><br>
                     Radar STATS es una aplicación desarrollada por
                     @pvieito que publica sus resultados en Twitter en la
@@ -428,6 +435,7 @@ COVID","hash":"Q+gOQWeHzTSWtsks2JBzV2o8BUfY0nRBXBECi105HfM="}<br>
                           Ajustes &gt; Notificaciones de exposición &gt;
                           <a href="402a.png">Activo</a> [pulsar en esa
                           etiqueta] &gt; <a href="402b.png">Comprobaciones
+
                             de exposición</a> &gt; [Introducir el código
                           de iPhone de "Ajustes"] &gt; [<a
                             href="402c.png">ver resultado</a>] [ver <a
@@ -474,10 +482,91 @@ COVID","hash":"Q+gOQWeHzTSWtsks2JBzV2o8BUfY0nRBXBECi105HfM="}<br>
                           <b><a name="rcv403"></a>403. Funcionamiento
                             técnico de Radar COVID</b><br>
                           <br>
-                          (en construcción) <font size="-1"> Fuente:
-                            ---<br>
-                            Estado: Aprobado<br>
-                            Fecha actualización: 10/10/2020<br>
+                          1. Cada móvil con Radar Covid instalado y
+                          Bluetooth activado genera, cada 10 minutos
+                          aproximadamente, identificadores aleatorios
+                          que se intercambian con otros móviles que
+                          están activados y a menos de 2 metros. Cada
+                          móvil almacena durante 14 días sus propios
+                          identificadores aleatorios y los de los
+                          móviles que han estado cerca.<br>
+                          <br>
+                          Hasta donde sabemos, no podemos ver si un
+                          móvil cercano nos ha enviado sus
+                          identificadores ni ver qué identificadores,
+                          propios o de terceros, tenemos almacenados.
+                          Por tanto, no podemos saber si nuestros
+                          móviles tienen bien instalada Radar Covid y
+                          tampoco podemos saber si nuestro vecino, desde
+                          una ventana cercana a la nuestra esta
+                          intercambiando identificadores con nosotros.<br>
+                          <br>
+                          2. Dos veces al día mi móvil descarga, del
+                          servidor de diagnósticos positivos, los
+                          identificadores aleatorios que se han subido
+                          recientemente a ese servidor por quienes han
+                          comunicado su diagnóstico positivo. Mi móvil
+                          compara esos identificadores aleatorios con
+                          los que he almacenado en dias previos
+                          provenientes de otros móviles y si encuentra
+                          alguna coincidencia la marca como "matchCount"
+                          en las Notificaciones de Exposición (ver
+                          preguntas 401 y 402). En ese caso mi móvil
+                          habrá estado cerca de un positivo y me lo
+                          comunicará ("<b>Riesgo alto. Tu exposición es
+                            alta</b>"). Si no encuentra coincidencia,
+                          Radar Covid indicará "<b>Riesgo bajo. Sin
+                            contactos de riesgo identificados</b>". En
+                          el <a href="comprobaciones_exposicion.xlsx">fichero
+                            adjunto</a> se ilustran las Comprobaciones
+                          de exposición que se han generado tras cada
+                          desarga.<br>
+                          <br>
+                          Por tanto, si me comunican "Riesgo alto"
+                          ninguna autoridad ni ningún servidor me está
+                          enviando un mensaje. Es mi propio móvil quien
+                          genera las notificaciones, con la información
+                          descargada del servidor y los identificadores
+                          aleatorios de terceros que mi móvil tenia
+                          almacenados.<br>
+                          <br>
+                          Por este motivo, las autoridades no pueden
+                          saber cuantas notificaciones de "Riesgo alto"
+                          han sido hechas.<br>
+                          <br>
+                          3. Cuando un usuario de la APP Radar Covid
+                          comunica su positivo, los identificadores
+                          aleatorios propios que tiene almacenados se
+                          cargan en el servidor de diagnósticos
+                          positivos que serán descargados por otros
+                          usuarios tal como se indica en el apartado 2.<br>
+                          <br>
+                          NOTA<br>
+                          <br>
+                          1. A los identificadores aleatorios se les
+                          suele llamar ID aleatorios, ID efímeros o
+                          Rolling Proximity Identifier (RPI,
+                          Identificador de proximidad móvil).<br>
+                          <br>
+                          2. Al descargar (como se indica en el apartado
+                          2) realmente no se descargan los
+                          identificadores aleatorios sino un
+                          identificador diario (TEK, Clave de exposición
+                          temporal Temporary Exposure Key en inglés) a
+                          partir de los cuales se calculan los
+                          identificadores aleatorios).<br>
+                          <br>
+                          <font size="-1">Fuente: <br>
+                            &nbsp;&nbsp;
+https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf<br>
+                            &nbsp;&nbsp;
+                            https://support.google.com/googleplay/answer/9888358?hl=es<br>
+                            &nbsp;&nbsp;
+                            https://radarcovid.gob.es/politica-de-privacidad<br>
+                            &nbsp;&nbsp;
+https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf<br>
+                            Estado: Borrador<br>
+                            Fecha actualización: 11/10/2020<br>
                           </font><br>
                           <br>
                           <b><a name="rcv501"></a>501. APP similares a
@@ -507,8 +596,7 @@ href="https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/s
                             href="https://covidtracker.gov.ie/how-the-app-works/">https://covidtracker.gov.ie/how-the-app-works/</a>
                           Cómo funciona la APP<br>
                           <br>
-                          4. Portugal. StayawayCOVID
-                          <br>
+                          4. Portugal. StayawayCOVID <br>
                           <br>
                           - <a
                             href="https://stayawaycovid.pt/funcionamento/">https://stayawaycovid.pt/funcionamento/</a>
@@ -563,6 +651,7 @@ href="https://covid19-static.cdn-apple.com/applications/covid19/current/static/c
                           Especificación de la emisión de Bluetooth.<br>
                           - <a
 href="https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf">https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-CryptographySpecificationv1.2.pdf
+
                           </a>Especificación de la generación de
                           identificadores.<br>
                           - <a
@@ -902,16 +991,23 @@ href="https://github.com/DP-3T/documents/blob/master/DP3T%20-%20Data%20Protectio
                         </font><font face="Verdana"><b><a
                               name="apendice"></a>Z. APÉNDICES</b><br>
                           <br>
-                          <b>SITIO OFICIAL DE SOPORTE A RADAR COVID</b><b><br>
+                          <b>A. SITIO OFICIAL DE SOPORTE A RADAR COVID</b><b><br>
                           </b><br>
                           <a
-                            href="https://radarcovid.gob.es/preguntas-frecuentes">https://radarcovid.gob.es/preguntas-frecuentes</a><br>
-                          <br>
-                          <a href="https://github.com/radarcovid">Código
-                            abierto ("open source") de RadarCovid</a><br>
+                            href="https://radarcovid.gob.es/preguntas-frecuentes">1.
+https://radarcovid.gob.es/preguntas-frecuentes</a><br>
+                          <a href="https://github.com/radarcovid">2.
+                            Código abierto ("open source") de RadarCovid</a><br>
+                          <a
+href="https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Preguntas_y_respuestas_RADAR-COVID.pdf">3.
+
+                            Preguntas y respuestas sobre la aplicación
+                            de localicalización de contactos Radar
+                            COVID-19</a>(Secr.Estado Digitalización e
+                          Inteligencia Artificial)<br>
                         </font><font face="Verdana"><font face="Verdana"><br>
                           </font><b><br>
-                            GLOSARIO<br>
+                            B. GLOSARIO<br>
                             <br>
                           </b>- CCAA. Comunidades autónomas españolas<br>
                           - DP3T Es un protocolo de código abierto
@@ -933,7 +1029,7 @@ https://es.wikipedia.org/wiki/Rastreo_de_proximidad_descentralizado_para_preserv
                           positivos.<br>
                           <b><br>
                             <br>
-                            EQUIPO QUE MANTIENE ESTA PÁGINA</b><b><br>
+                            C. EQUIPO QUE MANTIENE ESTA PÁGINA</b><b><br>
                           </b><br>
                         </font><font face="Verdana">Equipo de
                           @RadarCOVIDSTATS (en Twitter)<br>
@@ -946,7 +1042,7 @@ https://es.wikipedia.org/wiki/Rastreo_de_proximidad_descentralizado_para_preserv
                           face="Verdana"><b><br>
                             <br>
                             <br>
-                            REGLAS DE ESTILO</b><b><br>
+                            D. REGLAS DE ESTILO</b><b><br>
                           </b><br>
                           - Está página no está sometida a intereses y
                           conveniencias de partidos políticos ni de
@@ -963,8 +1059,8 @@ https://es.wikipedia.org/wiki/Rastreo_de_proximidad_descentralizado_para_preserv
                         </font><br>
                         <br>
                         <font face="Verdana"><font size="-1"> Versión:
-                            0.39<br>
-                            Fecha actualización: 10/10/2020 01:30<br>
+                            0.43<br>
+                            Fecha actualización: 11/10/2020 18:30<br>
                             <br>
                             <br>
                             <br>
