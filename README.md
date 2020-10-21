@@ -18,7 +18,7 @@ Lo ilustramos son el siguiente ejemplo.
 
 https://twitter.com/RadarCOVIDSTATS/status/1318649766356582401
 
-...
+```
 #RadarCOVID Report – 2020-10-20@20
 
 Today:
@@ -30,7 +30,7 @@ Today:
 Week:
 - Shared Diagnoses: =970
 - Usage Ratio: =1.25%
-...
+```
 
 https://github.com/pvieito/Radar-STATS#multi-region-summary-table
 ...
