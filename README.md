@@ -32,9 +32,9 @@ Week:
 - Usage Ratio: =1.25%
 ```
 
-https://github.com/pvieito/Radar-STATS#multi-region-summary-table
-...
+Y recogimos este enlace a esa misma hora (2020-10-20@20)  https://github.com/pvieito/Radar-STATS#multi-region-summary-table
 
+```
 Shared TEKs by Generation Date
 Bend Region	BE    CH     ES ES@PRE IT PT (aumento)					
 2020-10-20  0    182    140 3   0     0 +9
@@ -51,7 +51,7 @@ Bend Region	BE    CH     ES ES@PRE IT PT (aumento)
 2020-10-09  386	1603	421	77	600	134 +1
 2020-10-08  349	1467	414	81	585	112	+1
 2020-10-07  297	1361	375	90	568	109
-...
+```
 
 https://twitter.com/RadarCOVIDSTATS/status/1318633946930872320
 ...
