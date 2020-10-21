@@ -66,6 +66,7 @@ Today:
 Week:
 - Shared Diagnoses: =963
 - Usage Ratio: =1.24%
+...
 
 ...
 https://github.com/pvieito/Radar-STATS#multi-region-summary-table
