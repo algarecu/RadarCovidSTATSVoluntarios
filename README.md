@@ -36,7 +36,7 @@ Y recogimos este enlace a esa misma hora (2020-10-20@20)  https://github.com/pvi
 
 ```
 Shared TEKs by Generation Date
-Backend Region	BE    CH     ES ES@PRE IT PT (aumento)					
+Backend Region	B	CH	ES	ES@PRE	IT	PT	(aumento)
 2020-10-20	0	182	140	3	0	0	+9
 2020-10-19	0	699	270	34	454	66	+7
 2020-10-18	171	1084	381	44	468	118 +7
