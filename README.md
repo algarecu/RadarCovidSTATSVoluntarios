@@ -15,9 +15,10 @@ De esta manera se suben 5 TEK cuya "fecha de subida" (Upload Date) es el 20/10/2
 
 Lo ilustramos son el siguiente ejemplo.
 
-...
+
 https://twitter.com/RadarCOVIDSTATS/status/1318649766356582401
 
+...
 #RadarCOVID Report – 2020-10-20@20
 
 Today:
@@ -31,8 +32,8 @@ Week:
 - Usage Ratio: =1.25%
 ...
 
-...
 https://github.com/pvieito/Radar-STATS#multi-region-summary-table
+...
 
 Shared TEKs by Generation Date
 Bend Region	BE    CH     ES ES@PRE IT PT (aumento)					
@@ -52,8 +53,8 @@ Bend Region	BE    CH     ES ES@PRE IT PT (aumento)
 2020-10-07  297	1361	375	90	568	109
 ...
 
-...
 https://twitter.com/RadarCOVIDSTATS/status/1318633946930872320
+...
 
 #RadarCOVID Report – 2020-10-20@19
 
